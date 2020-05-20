@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_wayne.mk
+    $(LOCAL_DIR)/aosp_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_wayne-user \
-    havoc_wayne-userdebug \
-    havoc_wayne-eng
+    aosp_wayne-user \
+    aosp_wayne-userdebug \
+    aosp_wayne-eng

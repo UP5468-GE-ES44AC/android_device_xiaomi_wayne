@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from wayne device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,7 +29,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := wayne
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := MI 6X
-PRODUCT_NAME := havoc_wayne
+PRODUCT_NAME := aosp_wayne
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

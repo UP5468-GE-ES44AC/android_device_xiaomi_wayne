@@ -61,4 +61,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     MultitouchSettleInterval=1ms \
     MultitouchMinDistance=1px \
     TapInterval=1ms \
-    TapSlop=1px1
+    TapSlop=1px1 \
+    ro.sf.lcd_density=390

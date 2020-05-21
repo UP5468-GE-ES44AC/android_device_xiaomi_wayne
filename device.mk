@@ -45,6 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.dataroaming=false \
     touch.deviceType=touchScreen \
     touch.orientationAware=1 \
     touch.size.calibration=diameter \

@@ -37,6 +37,7 @@ $(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.dataroaming=false \
     touch.deviceType=touchScreen \
     touch.orientationAware=1 \
     touch.size.calibration=diameter \

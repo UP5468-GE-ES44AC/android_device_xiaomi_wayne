@@ -43,9 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=8m \
     dalvik.vm.heapmaxfree=32m \
 
-
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.dataroaming=false \
     touch.deviceType=touchScreen \
     touch.orientationAware=1 \
     touch.size.calibration=diameter \
@@ -63,4 +61,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     MultitouchMinDistance=1px \
     TapInterval=1ms \
     TapSlop=1px1 \
-    ro.sf.lcd_density=390
+    ro.sf.lcd_density=400 \
+    ro.com.android.dataroaming=false \
